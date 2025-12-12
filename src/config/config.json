@@ -6,23 +6,37 @@
   "supportEmail": "support@arixnode.com",
   "discordInvite": "https://discord.gg/arixnode",
   "panelUrl": "https://panel.arixnode.com",
+  "vpsPanel": "https://vps.arixnode.com",
   "socialLinks": {
     "discord": "https://discord.gg/arixnode",
     "twitter": "https://twitter.com/arixnode",
-    "github": "https://github.com/arixnode"
+    "github": "https://github.com/arixnode",
+    "youtube": "https://youtube.com/@arixnode"
   },
   "navigation": [
     { "label": "Home", "href": "/" },
+    { "label": "Minecraft", "href": "/minecraft" },
+    { "label": "Discord Bots", "href": "/discord-bots" },
+    { "label": "VPS", "href": "/vps" },
+    { "label": "Web Hosting", "href": "/web-hosting" },
+    { "label": "Free Hosting", "href": "/free-hosting" },
     { "label": "Status", "href": "/status" }
   ],
   "ctaButtons": {
     "primary": {
       "label": "Get Started",
-      "href": "https://panel.arixnode.com/register"
+      "href": "https://panel.arixnode.com"
     },
     "secondary": {
       "label": "Join Discord",
       "href": "https://discord.gg/arixnode"
     }
-  }
+  },
+  "stats": [
+    { "value": "99.9%", "label": "Uptime" },
+    { "value": "15K+", "label": "Servers" },
+    { "value": "24/7", "label": "Support" },
+    { "value": "5+", "label": "Locations" }
+  ],
+  "trustedBy": "Trusted by 15,000+ users worldwide"
 }
