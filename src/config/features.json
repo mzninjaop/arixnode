@@ -1,0 +1,82 @@
+{
+  "mainFeatures": [
+    {
+      "id": "performance",
+      "icon": "Zap",
+      "title": "Blazing Fast",
+      "description": "NVMe SSDs & latest gen processors for maximum speed"
+    },
+    {
+      "id": "uptime",
+      "icon": "Shield",
+      "title": "99.9% Uptime",
+      "description": "Enterprise-grade infrastructure with guaranteed uptime"
+    },
+    {
+      "id": "ddos",
+      "icon": "Lock",
+      "title": "DDoS Protection",
+      "description": "Advanced protection against all types of attacks"
+    },
+    {
+      "id": "support",
+      "icon": "Headphones",
+      "title": "24/7 Support",
+      "description": "Expert support team available around the clock"
+    },
+    {
+      "id": "panel",
+      "icon": "LayoutDashboard",
+      "title": "Easy Panel",
+      "description": "Intuitive control panel for effortless management"
+    },
+    {
+      "id": "backup",
+      "icon": "Database",
+      "title": "Auto Backups",
+      "description": "Automatic daily backups to keep your data safe"
+    },
+    {
+      "id": "global",
+      "icon": "Globe",
+      "title": "Global Network",
+      "description": "Multiple locations worldwide for low latency"
+    },
+    {
+      "id": "instant",
+      "icon": "Clock",
+      "title": "Instant Setup",
+      "description": "Servers deployed within seconds, not hours"
+    }
+  ],
+  "services": [
+    {
+      "id": "minecraft",
+      "icon": "Gamepad2",
+      "title": "Minecraft Hosting",
+      "description": "High-performance Minecraft servers with one-click modpack installation",
+      "link": "/#minecraft"
+    },
+    {
+      "id": "discord",
+      "icon": "Bot",
+      "title": "Discord Bot Hosting",
+      "description": "Reliable 24/7 hosting for your Discord bots with auto-restart",
+      "link": "/#discord"
+    },
+    {
+      "id": "vps",
+      "icon": "Server",
+      "title": "VPS Hosting",
+      "description": "Full root access virtual private servers with any OS",
+      "link": "/#vps"
+    },
+    {
+      "id": "web",
+      "icon": "Globe",
+      "title": "Web Hosting",
+      "description": "Fast & secure web hosting with free SSL and unlimited bandwidth",
+      "link": "/#web"
+    }
+  ]
+}

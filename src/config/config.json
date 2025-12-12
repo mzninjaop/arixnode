@@ -1,0 +1,28 @@
+{
+  "siteName": "ArixNode",
+  "tagline": "Ultimate Server Hosting",
+  "description": "Premium Minecraft, Discord Bot, VPS & Web Hosting",
+  "domain": "arixnode.com",
+  "supportEmail": "support@arixnode.com",
+  "discordInvite": "https://discord.gg/arixnode",
+  "panelUrl": "https://panel.arixnode.com",
+  "socialLinks": {
+    "discord": "https://discord.gg/arixnode",
+    "twitter": "https://twitter.com/arixnode",
+    "github": "https://github.com/arixnode"
+  },
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "Status", "href": "/status" }
+  ],
+  "ctaButtons": {
+    "primary": {
+      "label": "Get Started",
+      "href": "https://panel.arixnode.com/register"
+    },
+    "secondary": {
+      "label": "Join Discord",
+      "href": "https://discord.gg/arixnode"
+    }
+  }
+}
