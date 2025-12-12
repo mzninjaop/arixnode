@@ -1,0 +1,97 @@
+{
+  "lastUpdated": "2024-01-15T12:00:00Z",
+  "overallStatus": "operational",
+  "services": [
+    {
+      "id": "panel",
+      "name": "Game Panel",
+      "description": "Pterodactyl Control Panel",
+      "status": "operational",
+      "uptime": 99.98,
+      "responseTime": 45
+    },
+    {
+      "id": "node-eu1",
+      "name": "EU Node 1",
+      "description": "Frankfurt, Germany",
+      "status": "operational",
+      "uptime": 99.99,
+      "responseTime": 12
+    },
+    {
+      "id": "node-eu2",
+      "name": "EU Node 2",
+      "description": "Amsterdam, Netherlands",
+      "status": "operational",
+      "uptime": 99.95,
+      "responseTime": 15
+    },
+    {
+      "id": "node-us1",
+      "name": "US Node 1",
+      "description": "New York, USA",
+      "status": "operational",
+      "uptime": 99.97,
+      "responseTime": 28
+    },
+    {
+      "id": "node-us2",
+      "name": "US Node 2",
+      "description": "Los Angeles, USA",
+      "status": "degraded",
+      "uptime": 98.50,
+      "responseTime": 85
+    },
+    {
+      "id": "vps-panel",
+      "name": "VPS Panel",
+      "description": "Virtualizor Panel",
+      "status": "operational",
+      "uptime": 99.99,
+      "responseTime": 38
+    },
+    {
+      "id": "vps-node1",
+      "name": "VPS Node 1",
+      "description": "Frankfurt VPS",
+      "status": "operational",
+      "uptime": 99.96,
+      "responseTime": 22
+    },
+    {
+      "id": "vps-node2",
+      "name": "VPS Node 2",
+      "description": "New York VPS",
+      "status": "maintenance",
+      "uptime": 99.80,
+      "responseTime": 0
+    },
+    {
+      "id": "website",
+      "name": "Main Website",
+      "description": "arixnode.com",
+      "status": "operational",
+      "uptime": 100,
+      "responseTime": 32
+    },
+    {
+      "id": "api",
+      "name": "API",
+      "description": "REST API Services",
+      "status": "operational",
+      "uptime": 99.99,
+      "responseTime": 18
+    }
+  ],
+  "incidents": [
+    {
+      "id": "inc-001",
+      "title": "Scheduled Maintenance - VPS Node 2",
+      "description": "Upgrading hardware for improved performance",
+      "status": "in_progress",
+      "severity": "maintenance",
+      "createdAt": "2024-01-15T08:00:00Z",
+      "updatedAt": "2024-01-15T08:00:00Z"
+    }
+  ]
+}
