@@ -1,4 +1,5 @@
-import { Gamepad2, Bot, Server, Globe } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Gamepad2, Bot, Server, Globe, ArrowRight } from "lucide-react";
 import features from "@/config/features.json";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -25,10 +26,10 @@ const Services = () => {
           {features.services.map((service, index) => {
             const Icon = iconMap[service.icon] || Globe;
             return (
-              <a
+              <Link
                 key={service.id}
-                href={service.link}
-                className="group p-6 rounded-2xl glass hover-glow hover:glow-purple transition-all duration-500 animate-fade-in"
+                to={service.link}
+                className="group p-6 rounded-2xl glass hover-glow hover:glow-purple transition-all duration-500 animate-fade-in flex flex-col"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-primary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
@@ -37,10 +38,16 @@ const Services = () => {
                 <h3 className="font-display text-xl font-bold mb-2 group-hover:text-primary transition-colors">
                   {service.title}
                 </h3>
-                <p className="text-muted-foreground text-sm">
+                <p className="text-muted-foreground text-sm mb-4 flex-grow">
                   {service.description}
                 </p>
-              </a>
+                <div className="flex items-center justify-between">
+                  <span className="text-sm font-semibold text-primary">
+                    From {service.startingPrice}
+                  </span>
+                  <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all" />
+                </div>
+              </Link>
             );
           })}
         </div>

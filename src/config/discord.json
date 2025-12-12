@@ -1,0 +1,68 @@
+{
+  "title": "Discord Bot Hosting",
+  "subtitle": "24/7 Reliable Bot Hosting",
+  "description": "Powerful and affordable bot hosting built for stability. Run Discord or custom bots with ease. Low-latency servers with 99.9% uptime guarantee. Fully managed, secure, and backed by 24/7 support.",
+  "features": [
+    "SSD Storage",
+    "Unlimited Bandwidth",
+    "Full SFTP Access",
+    "One-Click Start/Stop",
+    "Custom Bot Support (Node.js, Python, Java, etc.)",
+    "99.9% Uptime Guarantee",
+    "Advance DDoS Protection",
+    "Instant Setup",
+    "Server Console Access",
+    "24/7 Active Support"
+  ],
+  "orderBaseUrl": "https://panel.arixnode.com/order/discord",
+  "plans": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "popular": false,
+      "price": { "usd": 0.15, "inr": 12.5, "eur": 0.13 },
+      "specs": {
+        "cpu": "0.5 Core High Frequency",
+        "ram": "0.5 GB DDR5 ECC",
+        "storage": "5 GB NVMe SSD",
+        "bandwidth": "Unmetered",
+        "connection": "1 Gbps",
+        "databases": "4",
+        "backups": "4"
+      },
+      "features": ["Full Panel Access", "Advance DDoS Protection", "24/7 Support"]
+    },
+    {
+      "id": "coder",
+      "name": "Coder",
+      "popular": true,
+      "price": { "usd": 0.30, "inr": 25, "eur": 0.26 },
+      "specs": {
+        "cpu": "1 Core High Frequency",
+        "ram": "1 GB DDR5 ECC",
+        "storage": "10 GB NVMe SSD",
+        "bandwidth": "Unmetered",
+        "connection": "1 Gbps",
+        "databases": "6",
+        "backups": "6"
+      },
+      "features": ["Full Panel Access", "Advance DDoS Protection", "24/7 Support"]
+    },
+    {
+      "id": "developer",
+      "name": "Developer",
+      "popular": false,
+      "price": { "usd": 0.61, "inr": 50, "eur": 0.53 },
+      "specs": {
+        "cpu": "1.5 Core High Frequency",
+        "ram": "2 GB DDR5 ECC",
+        "storage": "15 GB NVMe SSD",
+        "bandwidth": "Unmetered",
+        "connection": "1 Gbps",
+        "databases": "10",
+        "backups": "10"
+      },
+      "features": ["Full Panel Access", "Advance DDoS Protection", "24/7 Support"]
+    }
+  ]
+}

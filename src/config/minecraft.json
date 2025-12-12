@@ -1,0 +1,169 @@
+{
+  "title": "Minecraft Server Hosting",
+  "subtitle": "Lag-Free Gaming Experience",
+  "description": "Enjoy top-notch Minecraft hosting with DDR5 RAM and NVMe storage. Take advantage of lag-free gameplay, immediate server setup, and complete control via an easy-to-use panel.",
+  "features": [
+    "NVMe SSD Storage",
+    "DDR5 Memory",
+    "99.99% Uptime Guarantee",
+    "One Click Start/Stop",
+    "Instant Setup",
+    "Advance DDoS Protection",
+    "Server Console Access",
+    "Powered By Ryzen 7 7700",
+    "24/7 Active Support"
+  ],
+  "orderBaseUrl": "https://panel.arixnode.com/order/minecraft",
+  "plans": [
+    {
+      "id": "grass",
+      "name": "Grass",
+      "popular": false,
+      "price": { "usd": 0.61, "inr": 50, "eur": 0.53 },
+      "specs": {
+        "cpu": "100% (1 vCore)",
+        "ram": "2 GB DDR5 ECC",
+        "storage": "5 GB NVMe SSD",
+        "ports": "1 Additional",
+        "databases": "1",
+        "backups": "1"
+      },
+      "features": ["Automated Backup System", "Premium Game Panel", "Advance DDoS Protection"]
+    },
+    {
+      "id": "wood",
+      "name": "Wood",
+      "popular": false,
+      "price": { "usd": 1.22, "inr": 100, "eur": 1.06 },
+      "specs": {
+        "cpu": "150% (1.5 vCore)",
+        "ram": "4 GB DDR5 ECC",
+        "storage": "10 GB NVMe SSD",
+        "ports": "2 Additional",
+        "databases": "4",
+        "backups": "2"
+      },
+      "features": ["Automated Backup System", "Premium Game Panel", "Advance DDoS Protection"]
+    },
+    {
+      "id": "stone",
+      "name": "Stone",
+      "popular": true,
+      "price": { "usd": 2.44, "inr": 200, "eur": 2.12 },
+      "specs": {
+        "cpu": "250% (2.5 vCore)",
+        "ram": "8 GB DDR5 ECC",
+        "storage": "20 GB NVMe SSD",
+        "ports": "5 Additional",
+        "databases": "6",
+        "backups": "4"
+      },
+      "features": ["Automated Backup System", "Premium Game Panel", "Advance DDoS Protection"]
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "popular": false,
+      "price": { "usd": 3.66, "inr": 300, "eur": 3.18 },
+      "specs": {
+        "cpu": "350% (3.5 vCore)",
+        "ram": "12 GB DDR5 ECC",
+        "storage": "30 GB NVMe SSD",
+        "ports": "6 Additional",
+        "databases": "8",
+        "backups": "5"
+      },
+      "features": ["Automated Backup System", "Premium Game Panel", "Advance DDoS Protection"]
+    },
+    {
+      "id": "iron",
+      "name": "Iron",
+      "popular": false,
+      "price": { "usd": 4.88, "inr": 400, "eur": 4.24 },
+      "specs": {
+        "cpu": "500% (5 vCore)",
+        "ram": "16 GB DDR5 ECC",
+        "storage": "40 GB NVMe SSD",
+        "ports": "6 Additional",
+        "databases": "8",
+        "backups": "5"
+      },
+      "features": ["Automated Backup System", "Premium Game Panel", "Advance DDoS Protection"]
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "popular": false,
+      "price": { "usd": 6.10, "inr": 500, "eur": 5.30 },
+      "specs": {
+        "cpu": "550% (5.5 vCore)",
+        "ram": "20 GB DDR5 ECC",
+        "storage": "50 GB NVMe SSD",
+        "ports": "8 Additional",
+        "databases": "10",
+        "backups": "8"
+      },
+      "features": ["Automated Backup System", "Premium Game Panel", "Advance DDoS Protection"]
+    },
+    {
+      "id": "redstone",
+      "name": "Redstone",
+      "popular": false,
+      "price": { "usd": 7.32, "inr": 600, "eur": 6.36 },
+      "specs": {
+        "cpu": "650% (6.5 vCore)",
+        "ram": "24 GB DDR5 ECC",
+        "storage": "60 GB NVMe SSD",
+        "ports": "8 Additional",
+        "databases": "12",
+        "backups": "8"
+      },
+      "features": ["Automated Backup System", "Premium Game Panel", "Advance DDoS Protection"]
+    },
+    {
+      "id": "emerald",
+      "name": "Emerald",
+      "popular": false,
+      "price": { "usd": 9.76, "inr": 800, "eur": 8.48 },
+      "specs": {
+        "cpu": "750% (7.5 vCore)",
+        "ram": "32 GB DDR5 ECC",
+        "storage": "80 GB NVMe SSD",
+        "ports": "8 Additional",
+        "databases": "14",
+        "backups": "8"
+      },
+      "features": ["Automated Backup System", "Premium Game Panel", "Advance DDoS Protection"]
+    },
+    {
+      "id": "diamond",
+      "name": "Diamond",
+      "popular": true,
+      "price": { "usd": 14.63, "inr": 1200, "eur": 12.72 },
+      "specs": {
+        "cpu": "1200% (12 vCore)",
+        "ram": "48 GB DDR5 ECC",
+        "storage": "120 GB NVMe SSD",
+        "ports": "10 Additional",
+        "databases": "15",
+        "backups": "10"
+      },
+      "features": ["Automated Backup System", "Premium Game Panel", "Advance DDoS Protection"]
+    },
+    {
+      "id": "netherite",
+      "name": "Netherite",
+      "popular": false,
+      "price": { "usd": 19.51, "inr": 1600, "eur": 16.96 },
+      "specs": {
+        "cpu": "1600% (16 vCore)",
+        "ram": "64 GB DDR5 ECC",
+        "storage": "160 GB NVMe SSD",
+        "ports": "10 Additional",
+        "databases": "15",
+        "backups": "10"
+      },
+      "features": ["Automated Backup System", "Premium Game Panel", "Advance DDoS Protection"]
+    }
+  ]
+}

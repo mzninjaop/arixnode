@@ -1,0 +1,214 @@
+{
+  "title": "VPS Hosting",
+  "subtitle": "Enterprise-Grade Virtual Servers",
+  "description": "Unlock exceptional performance with Intel Xeon & AMD Ryzen processors. Engineered for reliability and efficiency in enterprise-level applications.",
+  "categories": [
+    {
+      "id": "intel",
+      "name": "Intel Xeon VPS",
+      "description": "Engineered for reliability and efficiency in enterprise-level applications. Ideal for heavy workloads, virtualization, and resource-intensive tasks.",
+      "features": [
+        "Dedicated CPU, RAM, and SSD Storage",
+        "Full Root Access & SSH",
+        "Choice of Operating Systems",
+        "Advance DDoS Protection",
+        "Advance Control Panel",
+        "Easy Upgrades Without Downtime",
+        "99.9% Uptime Guarantee",
+        "24/7 Technical Support"
+      ],
+      "orderBaseUrl": "https://vps.arixnode.com/order/intel",
+      "plans": [
+        {
+          "id": "intel-kvm-1",
+          "name": "INDIA — INTEL KVM 1",
+          "popular": false,
+          "price": 2.17,
+          "specs": {
+            "cpu": "Intel Xeon E5-2673 v4 (1 vCore)",
+            "frequency": "2.30 GHz Base / 3.60 GHz Turbo",
+            "ram": "2 GB DDR4 ECC",
+            "storage": "20 GB NVMe SSD",
+            "bandwidth": "Unmetered (1 Gbps)",
+            "location": "Noida, IN"
+          }
+        },
+        {
+          "id": "intel-kvm-2",
+          "name": "INDIA — INTEL KVM 2",
+          "popular": false,
+          "price": 2.87,
+          "specs": {
+            "cpu": "Intel Xeon E5-2673 v4 (1 vCore)",
+            "frequency": "2.30 GHz Base / 3.60 GHz Turbo",
+            "ram": "4 GB DDR4 ECC",
+            "storage": "40 GB NVMe SSD",
+            "bandwidth": "Unmetered (1 Gbps)",
+            "location": "Noida, IN"
+          }
+        },
+        {
+          "id": "intel-kvm-3",
+          "name": "INDIA — INTEL KVM 3",
+          "popular": true,
+          "price": 4.51,
+          "specs": {
+            "cpu": "Intel Xeon E5-2673 v4 (2 vCores)",
+            "frequency": "2.30 GHz Base / 3.60 GHz Turbo",
+            "ram": "8 GB DDR4 ECC",
+            "storage": "60 GB NVMe SSD",
+            "bandwidth": "Unmetered (1 Gbps)",
+            "location": "Noida, IN"
+          }
+        },
+        {
+          "id": "intel-kvm-4",
+          "name": "INDIA — INTEL KVM 4",
+          "popular": false,
+          "price": 7.10,
+          "specs": {
+            "cpu": "Intel Xeon E5-2673 v4 (4 vCores)",
+            "frequency": "2.30 GHz Base / 3.60 GHz Turbo",
+            "ram": "16 GB DDR4 ECC",
+            "storage": "80 GB NVMe SSD",
+            "bandwidth": "Unmetered (1 Gbps)",
+            "location": "Noida, IN"
+          }
+        },
+        {
+          "id": "intel-kvm-5",
+          "name": "INDIA — INTEL KVM 5",
+          "popular": false,
+          "price": 8.45,
+          "specs": {
+            "cpu": "Intel Xeon E5-2673 v4 (6 vCores)",
+            "frequency": "2.30 GHz Base / 3.60 GHz Turbo",
+            "ram": "24 GB DDR4 ECC",
+            "storage": "100 GB NVMe SSD",
+            "bandwidth": "Unmetered (1 Gbps)",
+            "location": "Noida, IN"
+          }
+        },
+        {
+          "id": "intel-kvm-6",
+          "name": "INDIA — INTEL KVM 6",
+          "popular": false,
+          "price": 11.27,
+          "specs": {
+            "cpu": "Intel Xeon E5-2673 v4 (8 vCores)",
+            "frequency": "2.30 GHz Base / 3.60 GHz Turbo",
+            "ram": "32 GB DDR4 ECC",
+            "storage": "150 GB NVMe SSD",
+            "bandwidth": "Unmetered (1 Gbps)",
+            "location": "Noida, IN"
+          }
+        },
+        {
+          "id": "intel-kvm-7",
+          "name": "INDIA — INTEL KVM 7",
+          "popular": false,
+          "price": 16.91,
+          "specs": {
+            "cpu": "Intel Xeon E5-2673 v4 (12 vCores)",
+            "frequency": "2.30 GHz Base / 3.60 GHz Turbo",
+            "ram": "48 GB DDR4 ECC",
+            "storage": "200 GB NVMe SSD",
+            "bandwidth": "Unmetered (1 Gbps)",
+            "location": "Noida, IN"
+          }
+        },
+        {
+          "id": "intel-kvm-8",
+          "name": "INDIA — INTEL KVM 8",
+          "popular": true,
+          "price": 22.54,
+          "specs": {
+            "cpu": "Intel Xeon E5-2673 v4 (16 vCores)",
+            "frequency": "2.30 GHz Base / 3.60 GHz Turbo",
+            "ram": "64 GB DDR4 ECC",
+            "storage": "250 GB NVMe SSD",
+            "bandwidth": "Unmetered (1 Gbps)",
+            "location": "Noida, IN"
+          }
+        },
+        {
+          "id": "intel-kvm-9",
+          "name": "INDIA — INTEL KVM 9",
+          "popular": false,
+          "price": 45.08,
+          "specs": {
+            "cpu": "Intel Xeon E5-2673 v4 (24 vCores)",
+            "frequency": "2.30 GHz Base / 3.60 GHz Turbo",
+            "ram": "128 GB DDR4 ECC",
+            "storage": "400 GB NVMe SSD",
+            "bandwidth": "Unmetered (1 Gbps)",
+            "location": "Noida, IN"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ryzen",
+      "name": "AMD Ryzen VPS",
+      "description": "Power your projects with ultra-fast AMD Ryzen performance built for developers, businesses, and heavy workloads. Perfect for hosting, rendering, automation, AI tasks, and more.",
+      "features": [
+        "Dedicated CPU, RAM, and SSD Storage",
+        "Full Root Access & SSH",
+        "Choice of Operating Systems",
+        "Advance DDoS Protection",
+        "Advance Control Panel",
+        "Easy Upgrades Without Downtime",
+        "99.9% Uptime Guarantee",
+        "24/7 Technical Support"
+      ],
+      "orderBaseUrl": "https://vps.arixnode.com/order/ryzen",
+      "plans": [
+        {
+          "id": "ryzen-kvm-1",
+          "name": "INDIA — RYZEN KVM 1",
+          "popular": false,
+          "price": 12.39,
+          "specs": {
+            "cpu": "AMD Ryzen 7700X (4 vCores)",
+            "frequency": "3.80 GHz Base / 5.30 GHz Turbo",
+            "ram": "16 GB DDR5 ECC",
+            "storage": "70 GB NVMe SSD",
+            "bandwidth": "200 GB (1 Gbps)",
+            "location": "Noida, IN"
+          },
+          "useCase": "Perfect for small-mid scale applications, APIs, bots"
+        },
+        {
+          "id": "ryzen-kvm-2",
+          "name": "INDIA — RYZEN KVM 2",
+          "popular": true,
+          "price": 19.09,
+          "specs": {
+            "cpu": "AMD Ryzen 7700X (8 vCores)",
+            "frequency": "3.80 GHz Base / 5.30 GHz Turbo",
+            "ram": "32 GB DDR5 ECC",
+            "storage": "100 GB NVMe SSD",
+            "bandwidth": "200 GB (1 Gbps)",
+            "location": "Noida, IN"
+          },
+          "useCase": "Ideal for databases, game servers, medium-scale hosting"
+        },
+        {
+          "id": "ryzen-kvm-3",
+          "name": "INDIA — RYZEN KVM 3",
+          "popular": false,
+          "price": 31.99,
+          "specs": {
+            "cpu": "AMD Ryzen 7700X (8 vCores — high load)",
+            "frequency": "3.80 GHz Base / 5.30 GHz Turbo",
+            "ram": "64 GB DDR5 ECC",
+            "storage": "120 GB NVMe SSD",
+            "bandwidth": "200 GB (1 Gbps)",
+            "location": "Noida, IN"
+          },
+          "useCase": "Perfect for AI workloads, big databases, enterprise hosting"
+        }
+      ]
+    }
+  ]
+}

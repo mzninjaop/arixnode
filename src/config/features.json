@@ -4,19 +4,19 @@
       "id": "performance",
       "icon": "Zap",
       "title": "Blazing Fast",
-      "description": "NVMe SSDs & latest gen processors for maximum speed"
+      "description": "NVMe SSDs & DDR5 RAM for maximum speed and performance"
     },
     {
       "id": "uptime",
       "icon": "Shield",
       "title": "99.9% Uptime",
-      "description": "Enterprise-grade infrastructure with guaranteed uptime"
+      "description": "Enterprise-grade infrastructure with guaranteed uptime SLA"
     },
     {
       "id": "ddos",
       "icon": "Lock",
       "title": "DDoS Protection",
-      "description": "Advanced protection against all types of attacks"
+      "description": "Advanced protection against all types of cyber attacks"
     },
     {
       "id": "support",
@@ -39,8 +39,8 @@
     {
       "id": "global",
       "icon": "Globe",
-      "title": "Global Network",
-      "description": "Multiple locations worldwide for low latency"
+      "title": "India Datacenter",
+      "description": "Low-latency servers located in Noida, India"
     },
     {
       "id": "instant",
@@ -54,29 +54,33 @@
       "id": "minecraft",
       "icon": "Gamepad2",
       "title": "Minecraft Hosting",
-      "description": "High-performance Minecraft servers with one-click modpack installation",
-      "link": "/#minecraft"
+      "description": "Lag-free Minecraft servers with DDR5 RAM and one-click modpack installation",
+      "link": "/minecraft",
+      "startingPrice": "₹50/mo"
     },
     {
       "id": "discord",
       "icon": "Bot",
       "title": "Discord Bot Hosting",
       "description": "Reliable 24/7 hosting for your Discord bots with auto-restart",
-      "link": "/#discord"
+      "link": "/discord-bots",
+      "startingPrice": "₹12.5/mo"
     },
     {
       "id": "vps",
       "icon": "Server",
       "title": "VPS Hosting",
-      "description": "Full root access virtual private servers with any OS",
-      "link": "/#vps"
+      "description": "Intel Xeon & AMD Ryzen VPS with full root access",
+      "link": "/vps",
+      "startingPrice": "$2.17/mo"
     },
     {
       "id": "web",
       "icon": "Globe",
       "title": "Web Hosting",
-      "description": "Fast & secure web hosting with free SSL and unlimited bandwidth",
-      "link": "/#web"
+      "description": "Fast & secure web hosting with free SSL and cPanel",
+      "link": "/web-hosting",
+      "startingPrice": "$1/mo"
     }
   ]
 }

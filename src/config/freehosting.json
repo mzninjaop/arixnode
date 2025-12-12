@@ -1,0 +1,67 @@
+{
+  "title": "Free Hosting & Invite Rewards",
+  "subtitle": "Start Hosting for Free",
+  "description": "Powerful and reliable hosting for Discord bots and servers. Enjoy dedicated CPU, RAM, and SSD storage with full control and advanced protection.",
+  "features": [
+    "Dedicated CPU, RAM, and SSD Storage",
+    "Advance DDoS Protection",
+    "Advance Control Panel",
+    "Easy Upgrades Without Downtime",
+    "99.9% Uptime Guarantee",
+    "24/7 Technical Support",
+    "Instant Setup",
+    "Server Console Access",
+    "One-Click Start/Stop",
+    "Custom Bot Language Supported (Node.js, Python, Java, etc.)",
+    "Unlimited Bandwidth"
+  ],
+  "location": "India",
+  "claimUrl": "https://discord.gg/arixnode",
+  "inviteRewards": [
+    {
+      "invites": 5,
+      "ram": "2 GB",
+      "cpu": "100%",
+      "disk": "5 GB"
+    },
+    {
+      "invites": 10,
+      "ram": "4 GB",
+      "cpu": "150%",
+      "disk": "10 GB"
+    },
+    {
+      "invites": 15,
+      "ram": "6 GB",
+      "cpu": "200%",
+      "disk": "15 GB"
+    },
+    {
+      "invites": 20,
+      "ram": "8 GB",
+      "cpu": "250%",
+      "disk": "20 GB"
+    },
+    {
+      "invites": 25,
+      "ram": "12 GB",
+      "cpu": "300%",
+      "disk": "25 GB"
+    },
+    {
+      "invites": 40,
+      "ram": "24 GB",
+      "cpu": "400%",
+      "disk": "30 GB"
+    }
+  ],
+  "rules": [
+    "Invited member account age must be 3 months or more",
+    "Only verified server members eligible",
+    "No fake invites; bots; self-joins and rejoin = reset",
+    "Invites will be counted by Invite Tracker",
+    "Pinging in ticket/chat for reward = reset",
+    "Checking invites in chat = reset",
+    "Abuse or breaking Discord TOS will result in immediate reset"
+  ]
+}

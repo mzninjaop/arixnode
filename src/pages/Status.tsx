@@ -1,6 +1,5 @@
 import { Activity, Clock, AlertTriangle, CheckCircle2, Wrench } from "lucide-react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import PageLayout from "@/components/PageLayout";
 import StatusIndicator from "@/components/StatusIndicator";
 import statusData from "@/config/status.json";
 
@@ -52,10 +51,8 @@ const Status = () => {
   const OverallIcon = overallInfo.icon;
 
   return (
-    <div className="min-h-screen bg-background">
-      <Navbar />
-
-      <main className="pt-24 pb-16">
+    <PageLayout>
+      <section className="py-12">
         <div className="container mx-auto px-4">
           {/* Header */}
           <div className="text-center mb-12">
@@ -139,7 +136,7 @@ const Status = () => {
               </h2>
 
               <div className="space-y-4">
-                {statusData.incidents.map((incident) => (
+                {statusData.incidents.map((incident: any) => (
                   <div
                     key={incident.id}
                     className="p-5 rounded-xl bg-card border border-border"
@@ -185,23 +182,21 @@ const Status = () => {
               </div>
               <div className="flex items-center gap-2">
                 <StatusIndicator status="degraded" />
-                <span className="text-sm text-muted-foreground">Degraded Performance</span>
+                <span className="text-sm text-muted-foreground">Degraded</span>
               </div>
               <div className="flex items-center gap-2">
                 <StatusIndicator status="outage" />
-                <span className="text-sm text-muted-foreground">Major Outage</span>
+                <span className="text-sm text-muted-foreground">Outage</span>
               </div>
               <div className="flex items-center gap-2">
                 <StatusIndicator status="maintenance" />
-                <span className="text-sm text-muted-foreground">Under Maintenance</span>
+                <span className="text-sm text-muted-foreground">Maintenance</span>
               </div>
             </div>
           </div>
         </div>
-      </main>
-
-      <Footer />
-    </div>
+      </section>
+    </PageLayout>
   );
 };
 

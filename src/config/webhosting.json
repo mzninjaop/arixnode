@@ -1,0 +1,95 @@
+{
+  "title": "Web Hosting",
+  "subtitle": "Fast & Secure Websites",
+  "description": "Launch your website with lightning-fast SSD hosting, free SSL certificates, and 24/7 support. Perfect for blogs, portfolios, business sites, and e-commerce.",
+  "features": [
+    "Free SSL Certificate",
+    "cPanel Control Panel",
+    "One-Click WordPress Install",
+    "Free Website Migration",
+    "Daily Automatic Backups",
+    "Email Hosting Included",
+    "99.9% Uptime Guarantee",
+    "24/7 Expert Support",
+    "DDoS Protection",
+    "SSD Storage"
+  ],
+  "orderBaseUrl": "https://panel.arixnode.com/order/web",
+  "plans": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "popular": false,
+      "price": { "usd": 1.00, "inr": 82, "eur": 0.92 },
+      "specs": {
+        "storage": "5 GB SSD",
+        "bandwidth": "50 GB",
+        "domains": "1 Website",
+        "emails": "5 Email Accounts",
+        "databases": "2 MySQL",
+        "subdomains": "5"
+      },
+      "features": ["Free SSL", "cPanel Access", "Daily Backups"]
+    },
+    {
+      "id": "basic",
+      "name": "Basic",
+      "popular": false,
+      "price": { "usd": 2.50, "inr": 205, "eur": 2.30 },
+      "specs": {
+        "storage": "15 GB SSD",
+        "bandwidth": "Unmetered",
+        "domains": "3 Websites",
+        "emails": "25 Email Accounts",
+        "databases": "10 MySQL",
+        "subdomains": "25"
+      },
+      "features": ["Free SSL", "cPanel Access", "Daily Backups", "Free Domain (1st year)"]
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "popular": true,
+      "price": { "usd": 5.00, "inr": 410, "eur": 4.60 },
+      "specs": {
+        "storage": "50 GB SSD",
+        "bandwidth": "Unmetered",
+        "domains": "10 Websites",
+        "emails": "Unlimited",
+        "databases": "Unlimited",
+        "subdomains": "Unlimited"
+      },
+      "features": ["Free SSL", "cPanel Access", "Daily Backups", "Free Domain (1st year)", "Priority Support"]
+    },
+    {
+      "id": "professional",
+      "name": "Professional",
+      "popular": false,
+      "price": { "usd": 7.50, "inr": 615, "eur": 6.90 },
+      "specs": {
+        "storage": "100 GB SSD",
+        "bandwidth": "Unmetered",
+        "domains": "25 Websites",
+        "emails": "Unlimited",
+        "databases": "Unlimited",
+        "subdomains": "Unlimited"
+      },
+      "features": ["Free SSL", "cPanel Access", "Daily Backups", "Free Domain", "Priority Support", "Staging Environment"]
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "popular": false,
+      "price": { "usd": 10.00, "inr": 820, "eur": 9.20 },
+      "specs": {
+        "storage": "200 GB SSD",
+        "bandwidth": "Unmetered",
+        "domains": "Unlimited",
+        "emails": "Unlimited",
+        "databases": "Unlimited",
+        "subdomains": "Unlimited"
+      },
+      "features": ["Wildcard SSL", "cPanel Access", "Hourly Backups", "Free Domain", "Dedicated Support", "White Label"]
+    }
+  ]
+}

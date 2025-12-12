@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Zap } from "lucide-react";
+import { Menu, X, Zap, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import config from "@/config/config.json";
 
@@ -23,15 +23,15 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden lg:flex items-center gap-1">
             {config.navigation.map((item) => (
               <Link
                 key={item.href}
                 to={item.href}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                   location.pathname === item.href
-                    ? "text-primary"
-                    : "text-muted-foreground"
+                    ? "bg-primary/10 text-primary"
+                    : "text-muted-foreground hover:text-foreground hover:bg-muted"
                 }`}
               >
                 {item.label}
@@ -40,13 +40,13 @@ const Navbar = () => {
           </div>
 
           {/* CTA Buttons */}
-          <div className="hidden md:flex items-center gap-3">
-            <Button variant="glass" asChild>
+          <div className="hidden lg:flex items-center gap-3">
+            <Button variant="glass" size="sm" asChild>
               <a href={config.ctaButtons.secondary.href} target="_blank" rel="noopener noreferrer">
                 {config.ctaButtons.secondary.label}
               </a>
             </Button>
-            <Button variant="glow" asChild>
+            <Button variant="glow" size="sm" asChild>
               <a href={config.ctaButtons.primary.href} target="_blank" rel="noopener noreferrer">
                 {config.ctaButtons.primary.label}
               </a>
@@ -55,7 +55,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Toggle */}
           <button
-            className="md:hidden p-2 text-foreground"
+            className="lg:hidden p-2 text-foreground"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -64,23 +64,23 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden py-4 border-t border-border animate-fade-in">
-            <div className="flex flex-col gap-4">
+          <div className="lg:hidden py-4 border-t border-border animate-fade-in">
+            <div className="flex flex-col gap-1">
               {config.navigation.map((item) => (
                 <Link
                   key={item.href}
                   to={item.href}
-                  className={`text-sm font-medium transition-colors hover:text-primary ${
+                  className={`px-4 py-3 rounded-lg text-sm font-medium transition-all ${
                     location.pathname === item.href
-                      ? "text-primary"
-                      : "text-muted-foreground"
+                      ? "bg-primary/10 text-primary"
+                      : "text-muted-foreground hover:text-foreground hover:bg-muted"
                   }`}
                   onClick={() => setIsOpen(false)}
                 >
                   {item.label}
                 </Link>
               ))}
-              <div className="flex flex-col gap-2 pt-4 border-t border-border">
+              <div className="flex flex-col gap-2 pt-4 mt-2 border-t border-border">
                 <Button variant="glass" asChild>
                   <a href={config.ctaButtons.secondary.href} target="_blank" rel="noopener noreferrer">
                     {config.ctaButtons.secondary.label}
